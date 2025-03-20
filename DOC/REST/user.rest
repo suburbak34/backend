@@ -1,0 +1,28 @@
+GET http://webarush.arush.local/api/user
+
+### GUARDAR USUARIO
+POST http://webarush.arush.local/api/user
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Carlos Rivera Guillen",
+    "email": "mail@mail.com",
+    "password": "Yseadr2025mil"
+}
+
+### ACTUALIZAR USUARIO
+PUT http://webarush.arush.local/api/user/5
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Alejandro Rivera Guillen",
+    "email": "alex@rivera.com",
+    "password": "Yseadr202032"
+}
+
+### ELIMINAR USUARIO
+DELETE http://webarush.arush.local/api/user/4
+Accept: application/json
+Content-Type: application/json
