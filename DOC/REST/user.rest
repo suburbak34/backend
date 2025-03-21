@@ -1,4 +1,6 @@
 GET http://webarush.arush.local/api/user
+Accept: application/json
+Authorization: Bearer 19|XgxUbSfQZGEWICjVZwzmTaRzwVzHoPhqs8TiojG7840768cc
 
 ### GUARDAR USUARIO
 POST http://webarush.arush.local/api/user

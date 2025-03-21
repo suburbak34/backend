@@ -1,0 +1,20 @@
+### Login
+POST http://webarush.arush.local/api/v1/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "alex@rivera.com",
+    "password": "Yseadr20203f2"
+}
+
+### Perfil
+GET http://webarush.arush.local/api/v1/auth/profile
+Accept: application/json
+Authorization: Bearer 18|eQ6spCgCACbx2DzZWyzSszBvhiKWYjZhwXLIQKOp74416e61
+
+### Logout
+POST http://webarush.arush.local/api/v1/auth/logout
+Accept: application/json
+Authorization: Bearer 19|XgxUbSfQZGEWICjVZwzmTaRzwVzHoPhqs8TiojG7840768cc
+
