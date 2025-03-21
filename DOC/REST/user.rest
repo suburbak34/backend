@@ -17,9 +17,9 @@ Accept: application/json
 Content-Type: application/json
 
 {
-    "name": "Alejandro Rivera Guillen",
+    "name": "Alex Rivera",
     "email": "alex@rivera.com",
-    "password": "Yseadr202032"
+    "password": "Yseadr20203f2"
 }
 
 ### ELIMINAR USUARIO
